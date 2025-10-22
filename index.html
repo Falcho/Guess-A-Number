@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Jeg gætter dit tal!</h1>
+        <p id="question">Tænk på et tal mellem 1 og 100 <br>Tryk på "Start", når du er klar til at spille!</p>
+        <button id="btn_start" type="button">Start</button>
+        <br>
+        <button id="lower" type="button">For højt</button>
+        <button id="higher" type="button">For lavt</button>
+        <button id="correct" type="button">Korrekt</button>
+        <p id="message"></p>
+        <div id="history" aria-live="polite"></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
