@@ -1,1 +1,1 @@
-###School assignment for "Datastrukturer og Algoritmer"
+### School assignment for "Datastrukturer og Algoritmer"
